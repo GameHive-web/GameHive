@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .games {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .game {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .price {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Hive</h1>
+    </header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Jeux</a>
+        <a href="#">Blog</a>
+        <a href="#">À propos</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Bienvenue sur Game Hive !</h2>
+        <p>Découvrez nos jeux passionnants et plongez dans l'univers du divertissement.</p>
+    </section>
+    <section>
+        <h2>Game Store</h2>
+        <div class="games">
+            <div class="game">
+                <h3>Nom du jeu gratuit</h3>
+                <p>Description du jeu gratuit.</p>
+                <p class="price">Gratuit</p>
+                <button>Télécharger</button>
+            </div>
+            <div class="game">
+                <h3>Nom du jeu payant</h3>
+                <p>Description du jeu payant.</p>
+                <p class="price">9,99 €</p>
+                <button>Acheter</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Blog</h2>
+        <article>
+            <h3>Titre de l'article 1</h3>
+            <p>Description de l'article 1.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Titre de l'article 2</h3>
+            <p>Description de l'article 2.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+        <article>
+            <h3>Titre de l'article 3</h3>
+            <p>Description de l'article 3.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Game Hive. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
